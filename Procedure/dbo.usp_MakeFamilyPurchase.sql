@@ -13,7 +13,7 @@ begin
 
 	if @ID_Family is null 
 	begin
-		set @ErrorMessage = concat(@FamilySurName, ' отсутствует в списке')
+		set @ErrorMessage = concat(@FamilySurName, ' РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РІ СЃРїРёСЃРєРµ')
 
 		raiserror(@ErrorMessage, 1, 1)
 
